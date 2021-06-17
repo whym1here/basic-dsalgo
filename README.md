@@ -10,5 +10,5 @@
     - [x] Shift up and Shift down for Binary Tree ```O(log(n))```
     - [x] Normal and memory efficient Heap Sort ```O(nlog(n))```
 3. Quick Sort and Order Statistics
-    - [ ] Quick Sort ```O(nlog(n))```
-    - [ ] Order Statistics ```O(n)```
+    - [x] Quick Sort ```O(nlog(n))```
+    - [x] Order Statistics ```O(n)```
