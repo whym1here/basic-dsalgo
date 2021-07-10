@@ -19,3 +19,6 @@
 3. Quick Sort and Order Statistics
     - [x] Quick Sort ```O(nlog(n))```
     - [x] Order Statistics ```O(n)```
+4. Radix and Counting Sort
+    - [x] Radix Sort ```O(d*(n+b))```
+    - [x] Counting Sort ```O(n+k)```
