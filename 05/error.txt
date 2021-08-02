@@ -1,0 +1,26 @@
+a = [ 2 5 6 10 12 18 21 ] 
+basic_binary_search(a, 2) = 0
+basic_binary_search(a, 21) = 6
+basic_binary_search(a, 12) = 4
+basic_binary_search(a, 4) = -1
+
+a = [ 2 5 6 10 12 18 21 ] 
+left_greater_equal(a, 2) = 0
+left_greater_equal(a, 21) = 6
+left_greater_equal(a, 12) = 4
+left_greater_equal(a, 4) = 1
+left_greater_equal(a, 7) = 3
+left_greater_equal(a, 15) = 5
+left_greater_equal(a, 1) = 0
+left_greater_equal(a, 50) = 7
+
+a = [ 2 5 6 10 12 18 21 ] 
+right_less_equal(a, 2) = 0
+right_less_equal(a, 21) = 6
+right_less_equal(a, 12) = 4
+right_less_equal(a, 4) = 0
+right_less_equal(a, 7) = 2
+right_less_equal(a, 15) = 4
+right_less_equal(a, 1) = -1
+right_less_equal(a, 50) = 6
+

@@ -22,3 +22,7 @@
 4. Radix and Counting Sort
     - [x] Radix Sort ```O(d*(n+b))```
     - [x] Counting Sort ```O(n+k)```
+5. Binary Search and its application for sorted array
+    - [x] Binary Search ```O(log(n))```
+    - [x] minimun i such that a[i] >= x ```O(log(n))```
+    - [x] maximum i such that a[i] <= x ```O(log(n))```
