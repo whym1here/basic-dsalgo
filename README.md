@@ -26,3 +26,8 @@
     - [x] Binary Search ```O(log(n))```
     - [x] minimun i such that a[i] >= x ```O(log(n))```
     - [x] maximum i such that a[i] <= x ```O(log(n))```
+6. Stack and Queue
+    - [x] Stack push ```O(1) or O(n)```
+    - [x] Stack pop ```O(1) or O(n)```
+    - [x] Queue add ```O(1) or O(n)```
+    - [x] Queue remove ```O(1) or O(n)```
