@@ -26,7 +26,7 @@
     - [x] Binary Search ```O(log(n))```
     - [x] minimun i such that a[i] >= x ```O(log(n))```
     - [x] maximum i such that a[i] <= x ```O(log(n))```
-6. Stack and Queue
+6. Stack and Queue using arrays and dynamic memory allocation
     - [x] Stack push ```O(n) or amortized O(1)```
     - [x] Stack pop ```O(n) or amortized O(1)```
     - [x] Queue add ```O(n) or amortized O(1)```
