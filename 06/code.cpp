@@ -48,41 +48,67 @@ template<typename T>void deb(unordered_multiset<T> aset){cerr<<"[ ";for(const au
 // }real_name_of_struct;
 class Stack{
 private:
-    ll *ptr = nullptr;
-    ll size = 0;
-    ll n = 0;
+    ll *ptr = nullptr; // Pointer to heap contiguous memory where stack is stored
+    ll size = 0; // Real Size of the heap contiguous memory allocated
+    ll n = 0; // Size that stack uses 
 public:
+    ~Stack(){
+        // cerr<<"Stack() : Stack deleted"<<endl;
+        delete[] ptr;
+    }
+
     void push(ll x){
-        if(n == size){
+        if(n == size or size == 0){ // size == 0 is a edge case that needs to be looked into
+            // Allocating new memeory to the array
             ll *new_ptr = new ll[2*n];
+            size = 2*n;
             for(ll i = 0; i < n; i++){
                 new_ptr[i] = ptr[i];
             }
+            // Avoid null pointer exception and make program memeory safe 
             if(ptr != nullptr){
-                ll* del_ptr = ptr;
-                delete[] del_ptr;
+                delete[] ptr;
             }
+
+            // Assigning it new heap that we allocated above
             ptr = new_ptr;
+            
+            // Debugging Code
+            // cerr<<"push(ll x) memory allocation of size : "<<size<<endl;
         }
-        size++;
+        // size++; // very bad time complexity if you use this
         ptr[n++] = x; 
     }
 
     ll pop(){
         ll res = ptr[--n];
         if (n < size/4){
+            // Error handling
             if(ptr == nullptr){
-                cerr<<"INVALID OPERATION"<<endl;
+                cerr<<"pop() : Invalid Operation"<<endl;
                 return -LLONG_MAX;
 
             }
+            
+            // Allocating new memeory to the array
             ll *new_ptr = new ll[size/2];
+            size = size/2;
             for(ll i = 0; i < n; i++){
                 new_ptr[i] = ptr[i];
             }
+
+            // Avoid null pointer exception and make program memeory safe 
+            if(ptr != nullptr){
+                delete[] ptr;
+            }
+
+            // Assigning it new heap that we allocated above
             ptr = new_ptr;
+
+            // Debugging Code
+            // cerr<<"pop() memory allocation of size : "<<size<<endl;
         }
-        size--;
+        // size--; // very bad time complexity if you use this
         return res;
     }
 
@@ -95,23 +121,25 @@ public:
     }
 
     bool empty(){
-        return (size > 0) ? false : true; 
+        return (n > 0) ? false : true; 
     }
 };
 
 class Queue{
 private:
-    Stack s1;
-    Stack s2;
+    Stack sa;
+    Stack sb;
 public:
     void add(ll x){
-        s2.push(x);
+        sb.push(x);
     }
     ll remove(){
-        while(!s2.empty()){
-            s1.push(s2.pop());
+        // sb.display();
+        // sa.display();
+        while(!sb.empty()){
+            sa.push(sb.pop());
         }
-        return s1.pop();
+        return sa.pop();
     }
 };
 
