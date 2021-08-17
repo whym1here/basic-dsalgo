@@ -48,7 +48,7 @@ template<typename T>void deb(unordered_multiset<T> aset){cerr<<"[ ";for(const au
 // }real_name_of_struct;
 class Stack{
 private:
-    ll *ptr;
+    ll *ptr = nullptr;
     ll size = 0;
     ll n = 0;
 public:
@@ -58,8 +58,10 @@ public:
             for(ll i = 0; i < n; i++){
                 new_ptr[i] = ptr[i];
             }
-            // delete[] ptr;
-            // ptr = NULL;
+            if(ptr != nullptr){
+                ll* del_ptr = ptr;
+                delete[] del_ptr;
+            }
             ptr = new_ptr;
         }
         size++;
@@ -69,12 +71,15 @@ public:
     ll pop(){
         ll res = ptr[--n];
         if (n < size/4){
+            if(ptr == nullptr){
+                cerr<<"INVALID OPERATION"<<endl;
+                return -LLONG_MAX;
+
+            }
             ll *new_ptr = new ll[size/2];
             for(ll i = 0; i < n; i++){
                 new_ptr[i] = ptr[i];
             }
-            // delete[] ptr;
-            // ptr = NULL;
             ptr = new_ptr;
         }
         size--;
