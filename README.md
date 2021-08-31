@@ -31,3 +31,12 @@
     - [x] Stack pop ```O(n) or amortized O(1)```
     - [x] Queue add ```O(n) or amortized O(1)```
     - [x] Queue remove ```O(n) or amortized O(1)```
+6. Linked lists, Stack and Queue
+    - [x] Single Linked List append ```O(n)```
+    - [x] Single Linked List remove ```O(n)```
+    - [x] Doubly Linked List append ```O(n)```
+    - [x] Doubly Linked List remove ```O(n)```
+    - [x] Stack push ```O(1)```
+    - [x] Stack pop ```O(1)```
+    - [x] Queue add ```O(1)```
+    - [x] Queue remove ```O(1)```

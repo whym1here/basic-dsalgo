@@ -1,0 +1,2 @@
+Cannot pop a empty stack
+Cannot remove element from a empty Queue
