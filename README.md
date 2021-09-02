@@ -27,11 +27,11 @@
     - [x] minimun i such that a[i] >= x ```O(log(n))```
     - [x] maximum i such that a[i] <= x ```O(log(n))```
 6. Stack and Queue using arrays and dynamic memory allocation
-    - [x] Stack push ```O(n) or amortized O(1)```
-    - [x] Stack pop ```O(n) or amortized O(1)```
-    - [x] Queue add ```O(n) or amortized O(1)```
-    - [x] Queue remove ```O(n) or amortized O(1)```
-6. Linked lists, Stack and Queue
+    - [x] Stack push ```O(n) and amortized O(1)```
+    - [x] Stack pop ```O(n) and amortized O(1)```
+    - [x] Queue add ```O(n) and amortized O(1)```
+    - [x] Queue remove ```O(n) and amortized O(1)```
+7. Linked lists, Stack and Queue
     - [x] Single Linked List append ```O(n)```
     - [x] Single Linked List remove ```O(n)```
     - [x] Doubly Linked List append ```O(n)```
@@ -40,3 +40,10 @@
     - [x] Stack pop ```O(1)```
     - [x] Queue add ```O(1)```
     - [x] Queue remove ```O(1)```
+8. Disjoint Sets
+    - [x] slow join ```O(n) and Total : O(n^2)```
+    - [x] slow find ```O(1)``` 
+    - [x] medium join ```O(n) and Total : O(nlog(n))```
+    - [x] medium find ```O(1)```
+    - [x] fast join ```O(n) and Total : O(inverse-ackermann_function(n, m))```
+    - [x] fast find ```O(n) and amortized O(1)```
