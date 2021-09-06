@@ -2,3 +2,4 @@
 *.exe
 .vscode/
 **/.vscode/
+snippets

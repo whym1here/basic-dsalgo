@@ -47,3 +47,8 @@
     - [x] medium find ```O(1)```
     - [x] fast join ```O(n) and Total : O(inverse-ackermann_function(n, m))```
     - [x] fast find ```O(n) and amortized O(1)```
+9. Fibonacci Heap 
+    - [ ] add ```O(1)```
+    - [ ] remove_min(x) ```amortized O(log(n))```
+    - [ ] merge(H1, h2) ```O(1)```
+    - [ ] decrease_key(x, y) ```amortized O(1)```
