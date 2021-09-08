@@ -93,7 +93,7 @@ Legal moves :
 
 ## Question 09 :
 
-There is a small GrassHopper living on the left most cell(0) of a array and he wants to reach the right most cell(n) of this array. He can only jump k blocks to the right (from i he can jump to i + 1, i + 2, ... i + k). 
+There is a small GrassHopper living on the left most cell(0) of a array and he wants to reach the right most cell(n) of this array. He can only jump any number of blocks to the right. 
 
 For each jump it cannot be shorter than the pervious jump.
 
