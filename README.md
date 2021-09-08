@@ -52,6 +52,6 @@
     - [ ] remove_min(x) ```amortized O(log(n))```
     - [ ] merge(H1, h2) ```O(1)```
     - [ ] decrease_key(x, y) ```amortized O(1)```
-10. Dyanmic Programming Part - 01
+10. Dynamic Programming Part - 01
     - [x] GrassHopper Problem with different variations
     - [x] Turtle Problem
