@@ -1,0 +1,4 @@
+levenshtein_distance( "apple", "alpine" ) = 3
+levenshtein_distance( "document", "docament" ) = 1
+txt_align( {1, 2, 4, 6, 7, 8, 7, 4, 3, 2, 1, 3, 6, 7, 7, 5, 5}, 10 ) = dp = [ 0 729 343 27 91 118 126 153 369 180 154 153 244 154 181 208 333 208 ] 
+208
