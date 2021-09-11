@@ -59,3 +59,10 @@
     - [x] Levenshtein Distance(Edit Distance) ```O(|A|.|B|)```
     - [x] Text Alignment for Printing  ```O(n^2)```
     - [ ] Run-Length Encoding(RLE)
+12. Knapsack Problem
+    - [x] 0-1 Knapsack with wt[i] = cost[i] ```O(n.S)```
+    - [x] 0-1 Knapsack with ```O(n.S)```
+    - [x] 0-1 Knapsack with bits ```O((2^n).n)```
+    - [x] faster 0-1 Knapsack with bits ```O((2^(n/2)).n)```
+    - [x] Subset Sum ```O(n.S)```
+    - [ ] Multiple Knapsack
