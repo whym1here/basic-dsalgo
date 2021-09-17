@@ -1,0 +1,35 @@
+# node : 0
+node : 1 wt : 3
+node : 2 wt : 4
+node : 3 wt : 7
+# node : 1
+node : 0 wt : 3
+node : 2 wt : 2
+node : 4 wt : 5
+# node : 2
+node : 0 wt : 4
+node : 1 wt : 2
+node : 4 wt : 2
+node : 5 wt : 3
+# node : 3
+node : 0 wt : 7
+node : 5 wt : 5
+node : 6 wt : 6
+# node : 4
+node : 1 wt : 5
+node : 2 wt : 2
+node : 5 wt : 3
+node : 7 wt : 8
+# node : 5
+node : 2 wt : 3
+node : 3 wt : 5
+node : 4 wt : 3
+node : 6 wt : 7
+# node : 6
+node : 3 wt : 6
+node : 5 wt : 7
+node : 7 wt : 5
+# node : 7
+node : 4 wt : 8
+node : 6 wt : 5
+26

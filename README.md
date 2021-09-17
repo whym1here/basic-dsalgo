@@ -66,3 +66,8 @@
     - [x] faster 0-1 Knapsack with bits ```O((2^(n/2)).n)```
     - [x] Subset Sum ```O(n.S)```
     - [ ] Multiple Knapsack
+13. Dynamic Programming on Profiles
+    - [x] Traveling Salesman Problem ```O(n.(2^(n).k)```
+    - [ ] Full Profile Parquet Problem 
+    - [ ] Broken Profile Parquet Problem
+    - [ ] Variation on Parquet Problem
