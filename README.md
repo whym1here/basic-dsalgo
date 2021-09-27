@@ -71,3 +71,6 @@
     - [ ] Full Profile Parquet Problem 
     - [ ] Broken Profile Parquet Problem
     - [ ] Variation on Parquet Problem
+14. Hash Table
+    - [x] get(key) ```O(n) and amortized O(1)```
+    - [x] put(key, value) ```O(n) and amortized O(1)```
