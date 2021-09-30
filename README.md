@@ -74,3 +74,8 @@
 14. Hash Table
     - [x] get(key) ```O(n) and amortized O(1)```
     - [x] put(key, value) ```O(n) and amortized O(1)```
+15. Advance Hashing
+    - [ ] Perfect Hashing
+    - [ ] Cuckoo Hashing
+    - [ ] Bloom Filter
+    - [ ] Cuckoo Filter
