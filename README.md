@@ -79,3 +79,6 @@
     - [ ] Cuckoo Hashing
     - [ ] Bloom Filter
     - [ ] Cuckoo Filter
+16. Segment Tree for add and min
+    - [x] set(index, value) ```O(log(n))```
+    - [x] operation(left_index, right_index) ```O(log(n))```
