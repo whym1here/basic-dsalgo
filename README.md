@@ -82,3 +82,7 @@
 16. Segment Tree for add and min
     - [x] set(index, value) ```O(log(n))```
     - [x] operation(left_index, right_index) ```O(log(n))```
+17. Segment Tree with lazy propogation
+    - [x] set(index, value) ```O(log(n))```
+    - [x] get(left_index, right_index) ```O(log(n))```
+    - [x] range_update(left_index, right_index, value) ```O(log(n))```
