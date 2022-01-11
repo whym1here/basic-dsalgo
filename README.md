@@ -86,3 +86,8 @@
     - [x] set(index, value) ```O(log(n))```
     - [x] get(left_index, right_index) ```O(log(n))```
     - [x] range_update(left_index, right_index, value) ```O(log(n))```
+18. Fenwick Tree and Sparse Table
+    - [x] Fenwick Tree increment(index, value) ```O(log(n))```
+    - [x] Fenwick Tree query(left_index, right_index) ```O(log(n))```
+    - [x] Sparse Table building(size) ```O(nlog(n))```
+    - [x] Sparse Table query(left_index, right_index) ```O(1)```
