@@ -1,24 +1,9 @@
-#include <bits/stdc++.h>
+#pragma once
 
-// NAMESPACE
+#include<bits/stdc++.h>
+
 using namespace std;
 
-// TYPEDEFS
-typedef long long ll; 
-typedef unsigned long long ull;
-typedef long double lld;
-typedef string str; // copied from Benq's code 
-
-// MACROS
-#define pr(x) cout<<(x)<<nline // From my python template
-#define prl(x) cout<<(x)<<' ' // same as above
-#define nline '\n' // Copied from a friend 
-#define f first // But I never use pair
-#define s second // Same as above
-#define pb push_back
-#define all(x) (x).begin(),(x).end() // Type less for sorting
-
-// DEBUG FUNCTIONS (very advance)
 template<typename T>long long SIZE(T (&t)){return t.size();}
 template<typename T, size_t N>long long SIZE(T (&t)[N]){return N;}
 string to_string(char t){return "'" + string({t}) + "'";}
@@ -37,78 +22,7 @@ template<typename Heads, typename... Tails>void dbgr(Heads H, Tails... T){cout <
 void dbgs(){;}
 template<typename Heads, typename... Tails>void dbgs(Heads H, Tails... T){cout << H << " ";dbgs(T...);}
 
-// DEBUG
-#ifndef ONLINE_JUDGE
 #define dbgv(...) cerr << to_string(__VA_ARGS__) << endl;
 #define dbg(...) cerr << "" << #__VA_ARGS__ << " = "; dbgv(__VA_ARGS__);
 #define dbgr(...) dbgr(__VA_ARGS__); cerr << endl;
 #define dbgm(...) cerr << "" << #__VA_ARGS__ << " = "; dbgr(__VA_ARGS__);
-#else
-#define dbgv(...)
-#define dbg(...)
-#define dbgr(...)
-#define dbgm(...)
-#endif
-
-// CLASS (uncomment for use)
-// class Name{
-// public:
-//     ll a;
-//     str b;
-//     Name(/* args */);
-//     ~Name();
-// };
-
-// CONSTANTS (uncomment for use)
-// const ll mod97 = 1e9+7; 
-// const ll modg = 998244353;
-// const int max_i = 2e5+5; 
-// const ll inf_ll = 1e18; 
-// const lld pi_lld = acos((lld)-1);
-
-// Function (predefined)
-ll binpow(ll a, ll b, ll m = (1e18)) {
-    a %= m;
-    ll res = 1;
-    while (b > 0) {
-        if (b & 1) res = res * a % m;
-        a = a * a % m;
-        b >>= 1;
-    }
-    return res;
-}
-
-// Functions
-
-
-// Solution
-void solve(){
-    
-}   
-
-// Main
-int main(){
-    // Fast IO
-    ios::sync_with_stdio(0);
-    cin.tie(NULL);cout.tie(NULL); 
-
-    // For local code execution
-#ifndef ONLINE_JUDGE
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
-    freopen("error.txt", "w", stderr);
-#endif // ONLINE_JUDGE    
-
-    // Complete Solution
-    ll T;cin>>T;while(T--)
-    solve();
-    return 0;
-}
-
-// Read this if you ever get stuck 
-// Benq's advice : stuff you should look for
-// 	* int overflow, array bounds
-// 	* special cases (n=1?)
-// 	* do smth instead of nothing and stay organized
-// 	* WRITE STUFF DOWN
-// 	* DON'T GET STUCK ON ONE APPROACH
