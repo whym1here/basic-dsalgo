@@ -15,6 +15,9 @@ typedef long long ll;
 typedef unsigned long long ull;
 typedef long double lld;
 
+template<class T> using pq = priority_queue<T>;
+template<class T> using pqg = priority_queue<T, vector<T>, greater<T>>;
+
 #define pr(x) cout << (x) << '\n'
 #define prl(x) cout << (x) << ' '
 #define first f
