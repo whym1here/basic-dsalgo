@@ -1,0 +1,13 @@
+{
+    "workbench.colorTheme": "One Monokai",
+    "workbench.iconTheme": "vscode-icons",
+    "editor.fontFamily": "JetBrainsMono NF, 'Courier New', monospace",
+    "files.autoSave": "afterDelay",
+    "code-runner.runInTerminal": true,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "code-runner.executorMap": {
+        "cpp": "g++ -std=c++17 -DLOCAL $fullFileName -o $fileNameWithoutExt && ./$fileNameWithoutExt"
+    }
+}

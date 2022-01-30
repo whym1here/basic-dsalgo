@@ -3,7 +3,7 @@
 using namespace std;
 
 #ifdef LOCAL
-#include <algo/debug.h>
+#include "algo/debug.h"
 #else
 #define dbgv(...)
 #define dbg(...)

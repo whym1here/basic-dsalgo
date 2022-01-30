@@ -1,0 +1,74 @@
+{
+	// Place your snippets for python here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+	"advance python template": {
+		"prefix": "kaam",
+		"body": [
+		  "import os.path",
+		  "from math import gcd, floor, ceil",
+		  "from collections import *",
+		  "import sys",
+		  "",
+		  "# Constants",
+		  "mod = 1000000007",
+		  "INF = float('inf')",
+		  "",
+		  "# Functions",
+		  "def st(): return list(sys.stdin.readline().strip())",
+		  "def li(): return list(map(int, sys.stdin.readline().split()))",
+		  "def mp(): return map(int, sys.stdin.readline().split())",
+		  "def inp(): return int(sys.stdin.readline())",
+		  "def pr(n): return sys.stdout.write(str(n)+\"\\n\")",
+		  "def prl(n): return sys.stdout.write(str(n)+\" \")",
+		  "",
+		  "# File Handling",
+		  "if os.path.exists('input.txt'):",
+		  "    sys.stdin = open('input.txt', 'r')",
+		  "    sys.stdout = open('output.txt', 'w')",
+		  "",
+		  "# Solution",
+		  "def solve():",
+		  "    pass",
+		  "",
+		  "# Main",
+		  "for _ in range(inp()):",
+		  "    solve()"
+		],
+		"description": "advance python template"
+	  },
+	  "basic python template": {
+		"prefix": "justworks",
+		"body": [
+		  "import sys",
+		  "import os.path",
+		  "from collections import *",
+		  "from math import gcd, floor, ceil",
+		  "",
+		  "if os.path.exists(\"input.txt\"):",
+		  "    sys.stdin = open(\"input.txt\", 'r')",
+		  "    sys.stdout = open(\"output.txt\", 'w')",
+		  "",
+		  "def solve():",
+		  "    pass",
+		  "",
+		  "if __name__==\"__main__\":",
+		  "    T = 1",
+		  "    T = int(input())",
+		  "    for tc in range(1, T + 1);",
+		  "        # print(f\"Case #{tc}: \", end=\"\")",
+		  "        solve()"
+		],
+		"description": "basic python template"
+	  }
+}
