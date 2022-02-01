@@ -91,3 +91,11 @@
     - [x] Fenwick Tree query(left_index, right_index) ```O(log(n))```
     - [x] Sparse Table building(size) ```O(nlog(n))```
     - [x] Sparse Table query(left_index, right_index) ```O(1)```
+19. 2D Segment Tree, Fenwick Tree, Sparse Table and Sweep Line Algorithm
+    - [x] 2D Segment Tree insert(i, j, val) ```O(2.m.log(n).log(m))``` 
+    - [x] 2D Segment Tree query(l, r, b, t) ```O(log(n).log(m))``` 
+    - [x] 2D Fenwick Tree increment(i, j, v) ```O(log(n).log(m))```
+    - [x] 2D Fenwick Tree query(l, r, b, t) ```O(log(n).log(m))```
+    - [ ] 2D Sparse Table building(size) ```O(n.m.log(n).log(m))```
+    - [ ] 2D Sparse Table query(l, r, b, t) ```O(1)```
+    - [ ] Sweep Line Algorithm
