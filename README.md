@@ -99,3 +99,10 @@
     - [ ] 2D Sparse Table building(size) ```O(n.m.log(n).log(m))```
     - [ ] 2D Sparse Table query(l, r, b, t) ```O(1)```
     - [ ] Sweep Line Algorithm
+20. Binary Search Tree
+    - [x] insert BST ```O(h)```
+    - [x] find BST ```O(h)```
+    - [x] remove BST ```O(h)```
+    - [ ] insert AVL tree ```O(log(n))```
+    - [ ] find AVL tree ```O(log(n))```
+    - [ ] remove AVL tree ```O(log(n))``` 
