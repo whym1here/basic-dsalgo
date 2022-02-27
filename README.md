@@ -100,9 +100,15 @@
     - [ ] 2D Sparse Table query(l, r, b, t) ```O(1)```
     - [ ] Sweep Line Algorithm
 20. Binary Search Tree
-    - [x] insert BST ```O(h)```
-    - [x] find BST ```O(h)```
-    - [x] remove BST ```O(h)```
-    - [ ] insert AVL tree ```O(log(n))```
-    - [ ] find AVL tree ```O(log(n))```
-    - [ ] remove AVL tree ```O(log(n))``` 
+    - [x] BST insert(key) ```O(h)```
+    - [x] BST find(key) ```O(h)```
+    - [x] BST remove(key) ```O(h)```
+    - [ ] AVL tree insert(key) ```O(log(n))```
+    - [ ] AVL tree find(key) ```O(log(n))```
+    - [ ] AVL tree remove(key) ```O(log(n))```
+21. Treap
+    - [x] split(node, key) ```O(log(n))```
+    - [x] merge(A, B) ```O(log(n))```
+    - [x] insert(key) ```O(log(n))```
+    - [x] find(key) ```O(log(n))```
+    - [x] remove(key) ```O(log(n))```
