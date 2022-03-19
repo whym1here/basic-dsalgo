@@ -112,3 +112,9 @@
     - [x] insert(key) ```O(log(n))```
     - [x] find(key) ```O(log(n))```
     - [x] remove(key) ```O(log(n))```
+
+22. Splay Tree
+    - [ ] splay(node) ```amortized O(log(n))```
+    - [ ] find(key) ```amortized O(log(n))```
+    - [ ] insert(key) ```amortized O(log(n))```
+    - [ ] remove(key) ```amortized O(log(n))```
