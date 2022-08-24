@@ -4,3 +4,5 @@
 **/.vscode/
 snippets
 TODO.md
+/library/extra.cpp
+/library/temp.cpp
