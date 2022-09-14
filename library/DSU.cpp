@@ -4,11 +4,11 @@ using namespace std;
 template<typename T>
 class DSU {
 public:
-    int n, components;
+    int n, component;
     vector<T> p, r, s;
 
     DSU(int _n) {
-        n = components = _n;
+        n = component = _n;
         r.assign(n, 1);
         s.assign(n, 1);
         p.assign(n, 1);
@@ -41,7 +41,7 @@ public:
         if(p[x] == p[y]) 
             p[y]++;
         s[y] += s[x];
-        components--;
+        component--;
         return true;
     }
 
@@ -59,7 +59,7 @@ public:
 
     // total number of components in the graph
     T components() {
-        return components;
+        return component;
     }
 
 };

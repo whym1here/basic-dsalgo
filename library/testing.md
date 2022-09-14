@@ -5,3 +5,6 @@
 
 ## DSU
 - 
+
+## Monotonic Queue
+- https://codeforces.com/contest/602/submission/172013185
