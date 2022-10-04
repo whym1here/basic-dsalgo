@@ -2,6 +2,7 @@
 *.exe
 .vscode/
 **/.vscode/
+**/**/.vscode/
 snippets
 TODO.md
 /library/extra.cpp
