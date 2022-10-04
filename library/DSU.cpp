@@ -1,68 +1,45 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-template<typename T>
 class DSU {
 public:
-    int n, component;
-    vector<T> p, r, s;
-
+    vector<int> p, r, sz;
+    int n;
+    
     DSU(int _n) {
-        n = component = _n;
-        r.assign(n, 1);
-        s.assign(n, 1);
-        p.assign(n, 1);
-        iota(p.begin(), p.end(), 0);
+        n = _n;
+        p = r = sz = vector<int>(n, 1);
+        for(int i = 0; i < n; i++) p[i] = i;
     }
-
-    // find the parent of a node x
-    T find(T x) {
+    
+    int find(int x) {
         assert(0 <= x and x < n);
-        T y = x;
-        while(x != p[x]) 
-            x = p[x];
+        int y = x;
+        while(x != p[x]) x = p[x];
         while(y != p[y]) {
-            T z = p[y];
+            int z = p[y];
             p[y] = x;
             y = z;
         }
         return x;
     }
-
-    // join two components of nodes x and y
-    bool join(T x, T y) {
+    
+    void join(int x, int y) {
         assert(0 <= x and x < n and 0 <= y and y < n);
         x = find(x), y = find(y);
-        if(x == y) 
-            return false;
-        if(p[x] > p[y]) 
-            swap(x, y);
-        p[y] = x;
-        if(p[x] == p[y]) 
-            p[y]++;
-        s[y] += s[x];
-        component--;
-        return true;
+        if(x == y) return;
+        if(r[x] > r[y]) swap(x, y); // for rank heuristics
+        // if(sz[x] > sz[y]) swap(x, y); // to size heuristics
+        p[x] = y;
+        sz[y] += sz[x];
+        r[y] += r[x] == r[y];
     }
-
-    // are x and y are in same component
-    bool same_group(T x, T y) {
-        assert(0 <= x and x < n and 0 <= y and y < n);
-        return find(x) == find(y);
-    }
-    
-    // number of nodes in component of x
-    T component_size(T x) {
-        assert(0 <= x and x < n);
-        return s[find(x)];
-    }
-
-    // total number of components in the graph
-    T components() {
-        return component;
-    }
-
 };
+
+// TODO: 
+// 1. Add min, max to each components
+// 2. Find the total number of components in O(1)
+// 3. Make it more general using ids and template
 
 int main() {
     ios::sync_with_stdio(false);
