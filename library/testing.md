@@ -18,3 +18,4 @@
 ## Segment Tree
 - https://leetcode.com/submissions/detail/814716816/
 - https://leetcode.com/submissions/detail/814717206/
+- https://codeforces.com/contest/52/submission/174611264

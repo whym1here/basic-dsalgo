@@ -1,10 +1,16 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// long long mod0 = 1000000007, mod1 = 987654347;
+// long long p0 = 31, p1 = 37;
 long long mod0 = 127657753, mod1 = 987654319;
 long long p0 = 137, p1 = 277;
 vector<array<long long, 2>> pw;
 vector<array<long long, 2>> ipw;
+
+long long h(char c) {
+    return c; // return c - 'a' + 1;
+}
 
 long long binpow(long long a, long long b, long long m) {
     a %= m;
@@ -57,11 +63,11 @@ public:
     Hashing(string s) {
         init((int)s.size() + 1);
         if(s.size() == 0) return;
-        pre.push_back({(s[0] * pw[0][0]) % mod0, (s[0] * pw[0][1]) % mod1});
+        pre.push_back({(h(s[0]) * pw[0][0]) % mod0, (h(s[0]) * pw[0][1]) % mod1});
         for(int i = 1; i < (int)s.size(); i++) {
             pre.push_back({
-                (pre[i - 1][0] + s[i] * pw[i][0]) % mod0,
-                (pre[i - 1][1] + s[i] * pw[i][1]) % mod1
+                (pre[i - 1][0] + h(s[i]) * pw[i][0]) % mod0,
+                (pre[i - 1][1] + h(s[i]) * pw[i][1]) % mod1
             });
         }
         n = (int)s.size();
