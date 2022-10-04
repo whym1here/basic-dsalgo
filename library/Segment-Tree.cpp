@@ -21,6 +21,7 @@ public:
             int m = l + (r - l) / 2;
             build(2 * p + 1, l, m);
             build(2 * p + 2, m + 1, r);
+            pull(p);
         };
         build(0, 0, n - 1);
     }
@@ -111,6 +112,7 @@ public:
             int m = l + (r - l) / 2;
             build(2 * p + 1, l, m);
             build(2 * p + 2, m + 1, r);
+            pull(p);
         };
         build(0, 0, n - 1);
     }
@@ -141,7 +143,7 @@ public:
         if(x <= m) {
             modify(2 * p + 1, l, m, x, v);
         } else {
-            modify(2 * p + 2, m + 1, r, v);
+            modify(2 * p + 2, m + 1, r, x, v);
         }
         pull(p);
     }
