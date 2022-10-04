@@ -55,11 +55,10 @@ void init(int limit) {
 }
 
 class Hashing {
-private:
+public:
     vector<array<long long, 2>> pre;
     int n; 
 
-public:
     Hashing(string s) {
         init((int)s.size() + 1);
         if(s.size() == 0) return;

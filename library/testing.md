@@ -6,7 +6,7 @@
 - https://leetcode.com/submissions/detail/813974996/
 
 ## DSU
-- 
+- https://leetcode.com/submissions/detail/815122496/ 
 
 ## Monotonic Queue
 - https://codeforces.com/contest/602/submission/172013185
@@ -19,3 +19,6 @@
 - https://leetcode.com/submissions/detail/814716816/
 - https://leetcode.com/submissions/detail/814717206/
 - https://codeforces.com/contest/52/submission/174611264
+
+## ModInt
+- 

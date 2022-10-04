@@ -5,6 +5,10 @@ class DSU {
 public:
     vector<int> p, r, sz;
     int n;
+
+    DSU() {
+        n = 0;
+    }
     
     DSU(int _n) {
         n = _n;

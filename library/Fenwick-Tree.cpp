@@ -19,16 +19,16 @@ public:
     // increase the value of element at idx idxex i.e a[idx]
     void inc(int idx, T val) {
         assert(0 <= idx and idx < n);
-        for(int i = idx; i < n; i = (i | (i + 1)))
-            bit[i] += val;
+        for(int i = idx + 1; i <= n; i += (i & -i))
+            bit[i - 1] += val;
     }
 
     // sum of all the elements in [0..idx]
     T query(int idx) {
         assert(0 <= idx and idx < n);
         T res = 0;
-        for(int i = idx; i >= 0; i = (i & (i + 1)) - 1)
-            res += bit[i];
+        for(int i = idx + 1; i > 0; i -= (i & -i))
+            res += bit[i - 1];
         return res;
     }
 

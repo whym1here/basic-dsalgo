@@ -67,29 +67,6 @@ public:
     }
 };
 
-// class Sum {
-// public:
-//     long long x = 0;
-//     int index = -1;
-    
-//     Sum() {}
-    
-//     Sum(long long _x) {
-//         x = _x;
-//     }
-    
-//     Sum(long long _x, int _index) {
-//         x = _x;
-//         index = _index;
-//     }
-// };
-
-// Sum operator+(const Sum &lf, const Sum &rt) {
-//     return Sum(lf.x + rt.x);
-// }
-
-// above works
-
 template<typename Info, typename Tag>
 class LazySegTree {
 public:
@@ -192,98 +169,9 @@ public:
     }
 };
 
-// class Tag {
-// public:
-//     long long x = 0;
-    
-//     Tag() {}
-    
-//     Tag(long long _x) {
-//         x = _x;
-//     }
-    
-//     void apply(const Tag &t) {
-//         x += t.x;
-//     }
-// };
-
-// class Sum {
-// public:
-//     long long x = 0;
-//     int index = -1;
-    
-//     Sum() {}
-    
-//     Sum(long long _x) {
-//         x = _x;
-//     }
-    
-//     Sum(long long _x, int _index) {
-//         x = _x;
-//         index = _index;
-//     }
-    
-//     void apply(const Tag &t) {
-//         x += t.x;
-//     }
-// };
-
-// Sum operator+(const Sum &lf, const Sum &rt) {
-//     return Sum(lf.x + rt.x);
-// }
-
-// constexpr int inf = 1e9;
-
-// class Tag {
-// public:
-//     int x = 0;
-
-//     Tag() {}
-
-//     Tag(int _x) {
-//         x = _x;
-//     }
-
-//     void apply(const Tag &t) {
-//         x += t.x;
-//     }
-// };
-
-// class Max {
-// public:
-//     int x = -inf;
-//     int index = -1;
-
-//     Max() {}
-
-//     Max(int _x) {
-//         x = _x;
-//     }
-
-//     Max(int _x, int _index) {
-//         x = _x;
-//         index = _index;
-//     }
-
-//     void apply(const Tag &t) {
-//         x += t.x;
-//     }
-// };
-
-// Max operator+(const Max & lf, const Max & rt) {
-//     if(lf.x < rt.x) return rt;
-//     else return lf;
-// }
-
-
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
-
-    // const int n = 10;
-    // SegTree<Sum> st(n);
-
-    // LazySegTree<Sum, Tag> st(n);
 
     return 0;
 }
