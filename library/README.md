@@ -2,7 +2,7 @@
 
 - [ ] [DSU](DSU.cpp)
 - [x] [Fenwick Tree](Fenwick-Tree.cpp)
-- [ ] [Segment Tree](Segment-Tree.cpp)
+- [x] [Segment Tree](Segment-Tree.cpp)
 - [ ] [Trie](Trie.cpp)
 - [x] [String Hashing](String-Hashing.cpp)
 - [x] [Monotonic Queue](Monotonic-Queue.cpp)
@@ -12,3 +12,4 @@ Good Resources:
 - [Range updates in BIT](https://stackoverflow.com/questions/27875691/need-a-clear-explanation-of-range-updates-and-range-queries-binary-indexed-tree/27877427#27877427)
 - [String Hashing](https://cp-algorithms.com/string/string-hashing.html#calculation-of-the-hash-of-a-string)
 - [Multiple Hashing](https://github.com/ShahjalalShohag/code-library/blob/11dc4e0c3e0041d333441ad7a085f3a445dff2fd/Strings/String%20Hashing.cpp)
+- [Jiangly's Segment Tree](https://codeforces.com/contest/1726/submission/171187552)
