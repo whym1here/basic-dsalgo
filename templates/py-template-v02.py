@@ -3,6 +3,8 @@ import os.path
 from collections import *
 from math import gcd, floor, ceil
 
+input = lambda: sys.stdin.readline().rstrip()
+
 if os.path.exists("input.txt"):
     sys.stdin = open("input.txt", 'r')
     sys.stdout = open("output.txt", 'w')
