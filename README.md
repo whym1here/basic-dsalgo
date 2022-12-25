@@ -10,6 +10,7 @@
 - [x] [String Hashing](library/String-Hashing.cpp)
 - [x] [Monotonic Queue](library/Monotonic-Queue.cpp)
 - [x] [ModInt](library/ModInt.cpp)
+- [x] [Sieve](library/Sieve.cpp)
 
 
 ### [DSA](dsa)

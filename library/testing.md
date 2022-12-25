@@ -20,5 +20,9 @@
 - https://leetcode.com/submissions/detail/814717206/
 - https://codeforces.com/contest/52/submission/174611264
 
+## Sieve
+- https://codeforces.com/contest/1766/submission/186706052
+- https://codeforces.com/contest/1771/submission/186706450
+
 ## ModInt
 - 
