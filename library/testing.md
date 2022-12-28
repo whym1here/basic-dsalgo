@@ -24,5 +24,8 @@
 - https://codeforces.com/contest/1766/submission/186706052
 - https://codeforces.com/contest/1771/submission/186706450
 
+## Segmented Sieve
+- https://pastebin.com/1zZ3BHmu
+
 ## ModInt
 - 

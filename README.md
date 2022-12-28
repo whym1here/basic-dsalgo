@@ -11,6 +11,7 @@
 - [x] [Monotonic Queue](library/Monotonic-Queue.cpp)
 - [x] [ModInt](library/ModInt.cpp)
 - [x] [Sieve](library/Sieve.cpp)
+- [x] [Segmented Sieve](library/Segmented-Sieve.cpp)
 
 
 ### [DSA](dsa)
