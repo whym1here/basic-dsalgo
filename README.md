@@ -12,6 +12,7 @@
 - [x] [ModInt](library/ModInt.cpp)
 - [x] [Sieve](library/Sieve.cpp)
 - [x] [Segmented Sieve](library/Segmented-Sieve.cpp)
+- [x] [Combinatorics](library/PnC.cpp)
 
 
 ### [DSA](dsa)

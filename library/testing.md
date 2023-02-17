@@ -29,3 +29,6 @@
 
 ## ModInt
 - 
+
+## PnC
+- https://codeforces.com/contest/1795/submission/193962632

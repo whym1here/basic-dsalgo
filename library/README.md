@@ -9,6 +9,7 @@
 - [x] [ModInt](ModInt.cpp)
 - [x] [Sieve](Sieve.cpp)
 - [x] [Segmented Sieve](Segmented-Sieve.cpp)
+- [x] [Combinatorics](PnC.cpp)
 
 Good Resources:
 - [BIT(Fenwick Tree)](https://cp-algorithms.com/data_structures/fenwick.html#3-range-updates-and-range-queries)
