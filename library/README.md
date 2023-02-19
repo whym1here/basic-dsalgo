@@ -10,6 +10,7 @@
 - [x] [Sieve](Sieve.cpp)
 - [x] [Segmented Sieve](Segmented-Sieve.cpp)
 - [x] [Combinatorics](PnC.cpp)
+- [x] [Sparse Table](RMQ.cpp)
 
 Good Resources:
 - [BIT(Fenwick Tree)](https://cp-algorithms.com/data_structures/fenwick.html#3-range-updates-and-range-queries)
@@ -19,3 +20,4 @@ Good Resources:
 - [Jiangly's Segment Tree](https://codeforces.com/contest/1726/submission/171187552)
 - [Jiangly's ModInt](https://codeforces.com/contest/1726/submission/171187552)
 - [CP-Algorithms's Sieve](https://cp-algorithms.com/algebra/sieve-of-eratosthenes.html)
+- [CP-Algorithms's Sparse Table](https://cp-algorithms.com/data_structures/sparse-table.html)

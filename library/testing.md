@@ -32,3 +32,6 @@
 
 ## PnC
 - https://codeforces.com/contest/1795/submission/193962632
+
+## RMQ
+- https://pastebin.com/QDJb2XZU

@@ -13,6 +13,7 @@
 - [x] [Sieve](library/Sieve.cpp)
 - [x] [Segmented Sieve](library/Segmented-Sieve.cpp)
 - [x] [Combinatorics](library/PnC.cpp)
+- [x] [Sparse Table](library/RMQ.cpp)
 
 
 ### [DSA](dsa)
