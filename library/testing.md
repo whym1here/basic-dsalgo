@@ -19,6 +19,7 @@
 - https://leetcode.com/submissions/detail/814716816/
 - https://leetcode.com/submissions/detail/814717206/
 - https://codeforces.com/contest/52/submission/174611264
+- https://pastebin.com/XsXeESsm
 
 ## Sieve
 - https://codeforces.com/contest/1766/submission/186706052
