@@ -36,3 +36,14 @@
 
 ## RMQ
 - https://pastebin.com/QDJb2XZU
+- https://atcoder.jp/contests/abc288/submissions/40611452
+- https://codeforces.com/contest/342/submission/201882628
+
+# Not Added
+
+## Centroid Decomposition
+- https://codeforces.com/contest/342/submission/201882628
+- https://codeforces.com/contest/321/submission/201900493
+
+# Matrix Expo
+- https://pastebin.com/Vbx4ykcy
