@@ -11,6 +11,7 @@
 - [x] [Segmented Sieve](Segmented-Sieve.cpp)
 - [x] [Combinatorics](PnC.cpp)
 - [x] [Sparse Table](RMQ.cpp)
+- [x] [Dinic Algorithm (Max Flow)](Dinic.cpp)
 
 Good Resources:
 - [BIT(Fenwick Tree)](https://cp-algorithms.com/data_structures/fenwick.html#3-range-updates-and-range-queries)
@@ -21,3 +22,5 @@ Good Resources:
 - [Jiangly's ModInt](https://codeforces.com/contest/1726/submission/171187552)
 - [CP-Algorithms's Sieve](https://cp-algorithms.com/algebra/sieve-of-eratosthenes.html)
 - [CP-Algorithms's Sparse Table](https://cp-algorithms.com/data_structures/sparse-table.html)
+- [CP-Algorithms's Dinic Algorithm (Max Flow)](https://cp-algorithms.com/graph/dinic.html#implementation)
+- [WilliamFiset's Dinic Algorithm (Max Flow)](https://www.youtube.com/watch?v=M6cm8UeeziI)

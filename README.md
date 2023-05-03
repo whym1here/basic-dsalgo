@@ -14,6 +14,7 @@
 - [x] [Segmented Sieve](library/Segmented-Sieve.cpp)
 - [x] [Combinatorics](library/PnC.cpp)
 - [x] [Sparse Table](library/RMQ.cpp)
+- [x] [Dinic Algorithm (Max Flow)](library/Dinic.cpp)
 
 
 ### [DSA](dsa)

@@ -39,6 +39,9 @@
 - https://atcoder.jp/contests/abc288/submissions/40611452
 - https://codeforces.com/contest/342/submission/201882628
 
+## Dinic's Algo (Max Flow)
+- https://cses.fi/paste/35ac25a79ccbb7ee5b864a/
+
 # Not Added
 
 ## Centroid Decomposition
