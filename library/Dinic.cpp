@@ -4,11 +4,10 @@ using namespace std;
 template<typename T>
 class Edge {
 public:
-    const T INF = numeric_limits<T>::min();
     int from, to;
     T cap, used;
  
-    Edge() : from(-1), to(-1), cap(INF), used(INF) {}
+    Edge() : from(-1), to(-1), cap(0), used(0) {}
  
     Edge(int _from, int _to, T _cap, T _used = 0) : from(_from), to(_to), cap(_cap), used(_used) {}  
  

@@ -39,8 +39,11 @@
 - https://atcoder.jp/contests/abc288/submissions/40611452
 - https://codeforces.com/contest/342/submission/201882628
 
-## Dinic's Algo (Max Flow)
+## Dinic's Algorithm (Max Flow)
 - https://cses.fi/paste/35ac25a79ccbb7ee5b864a/
+
+# Maximum Bipartite Matching (Max Flow)
+- https://pastebin.com/p40bzt1W
 
 # Not Added
 
