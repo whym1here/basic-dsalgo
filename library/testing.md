@@ -42,7 +42,7 @@
 ## Dinic's Algorithm (Max Flow)
 - https://cses.fi/paste/35ac25a79ccbb7ee5b864a/
 
-# Maximum Bipartite Matching (Max Flow)
+## Maximum Bipartite Matching (Max Flow)
 - https://pastebin.com/p40bzt1W
 
 # Not Added
