@@ -49,6 +49,7 @@
 
 ## Persistent Segment Tree
 - https://atcoder.jp/contests/abc339/submissions/50075390
+- https://atcoder.jp/contests/abc339/submissions/50075991 (with documentation)
 - https://atcoder.jp/contests/abc339/submissions/50066159 (with allocator)
 
 ## Centroid Decomposition
