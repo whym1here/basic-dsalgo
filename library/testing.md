@@ -48,7 +48,8 @@
 # Not Added
 
 ## Persistent Segment Tree
-- https://atcoder.jp/contests/abc339/submissions/50066159
+- https://atcoder.jp/contests/abc339/submissions/50075390
+- https://atcoder.jp/contests/abc339/submissions/50066159 (with allocator)
 
 ## Centroid Decomposition
 - https://codeforces.com/contest/342/submission/201882628
