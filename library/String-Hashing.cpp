@@ -33,7 +33,7 @@ long long inv(long long a, long long m) {
 // Till the limit i.e. [0, limit]
 void init(int limit) {
     if(pw.empty()) pw.push_back({1, 1});
-    while(pw.size() < limit + 1) {
+    while((int)pw.size() < limit + 1) {
         pw.push_back({
             (pw.back()[0] * p0) % mod0, 
             (pw.back()[1] * p1) % mod1
@@ -46,7 +46,7 @@ void init(int limit) {
             inv(p1, mod1)
         });
     }
-    while(ipw.size() < limit + 1) {
+    while((int)ipw.size() < limit + 1) {
         ipw.push_back({
             (ipw.back()[0] * ipw[1][0]) % mod0, 
             (ipw.back()[1] * ipw[1][1]) % mod1
